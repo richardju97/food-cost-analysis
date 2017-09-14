@@ -1,10 +1,13 @@
 // fca.h
 
+#include <vector>
+
 using namespace std;
 
 class MealStats {
 
-	vector<double> costs;
+	private: 
+		vector<double> costs;
 
 	public:
 		int addMeal(double c);
