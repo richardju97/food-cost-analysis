@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
 
 	} else if (select == 2) {
 
-		myMealStats.calcMean();
+		myMealStats.calcMean(3);
 
 	} else if (select == 0) {
 
