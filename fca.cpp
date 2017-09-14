@@ -6,11 +6,11 @@
 
 using namespace std;
 
-MealStats::addMeal(double c) {
+int MealStats::addMeal(double c) {
 
 }
 
-MealStats::calcMean(int n) {
+double MealStats::calcMean(int n) {
 
 }
 
