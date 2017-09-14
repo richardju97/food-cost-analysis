@@ -7,11 +7,11 @@
 using namespace std;
 
 int MealStats::addMeal(double c) {
-
+	return 0;
 }
 
 double MealStats::calcMean(int n) {
-
+	return 0;
 }
 
 int main(int argc, char* argv[]) {
