@@ -18,6 +18,16 @@ double MealStats::calcMean(int n) {
 	return 0;
 }
 
+int MealStats:select() {
+	
+	cout << "Please select an option:" << endl;
+	cout << "1. Add a meal." << endl;
+	cout << "2. Calculate Meal Statistics." << endl;
+	cout << "0. Exit Program." << endl;
+
+	return cin;
+}
+
 int main(int argc, char* argv[]) {
 /*
 	string meal;
@@ -36,16 +46,12 @@ int main(int argc, char* argv[]) {
 */
 	MealStats myMealStats;	
 
-	int select = -1;
 	int cont = 1;
-
-	cout << "Please select an option:" << endl;
-	cout << "1. Add a meal." << endl;
-	cout << "2. Calculate Meal Statistics." << endl;
-	cout << "0. Exit Program." << endl;
 
 	while (cont == 1) {
 
+		int select = myMealStats.select();
+		
 		if (select == 1) {
 			double cost;
 			cin >> cost;
