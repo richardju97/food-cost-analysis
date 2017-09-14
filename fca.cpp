@@ -43,22 +43,24 @@ int main(int argc, char* argv[]) {
 	cout << "2. Calculate Meal Statistics." << endl;
 	cout << "0. Exit Program." << endl;
 
-	if (select == 1) {
-		double cost;
-		cin >> cost;
-		myMealStats.addMeal(cost);
+	while (select != 0) {
 
-	} else if (select == 2) {
+		if (select == 1) {
+			double cost;
+			cin >> cost;
+			myMealStats.addMeal(cost);
+	
+		} else if (select == 2) {
+	
+			myMealStats.calcMean(3);
 
-		myMealStats.calcMean(3);
-
-	} else if (select == 0) {
-
-		cout << "Thanks for using our program!" << endl;	
-
-	} else {
+		} else {
 		cout << "Please select a valid option." << endl;
-	}	
+		}	
+	}
+
+
+	cout << "Thanks for using our program!" << endl;	
 
 	return 0;
 }
