@@ -8,7 +8,7 @@ fca:
 
 git-commit:
 	git add *.cpp *.h Makefile >> .local.git.out || echo
-	git commit -m "Commit $(USER)" >> .local.git.out || echo
+	git commit -m "Commit by $(USER)" >> .local.git.out || echo
 	git push
 
 clean:
