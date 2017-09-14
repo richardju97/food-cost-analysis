@@ -1,10 +1,10 @@
 CXX= g++
-CXXFLAGS= -Wall -g -Werror -o
+CXXFLAGS= -Wall -g -Werror
 
 all: git-commit fca
 
 fca:
-	$(CXX) $(CXXFLAGS) fca.o fca.cpp
+	$(CXX) $(CXXFLAGS) fca.cpp -o fca
 
 git-commit:
 	git add *.cpp *.h Makefile >> .local.git.out || echo
