@@ -7,8 +7,17 @@ using namespace std;
 
 class MealStats {
 
-		
+	vector<double> costs;
 
+	public:
+		
+		int addMeal() {
+			return 0;
+		}
+
+		double calcMean() {
+			return 0;			
+		}
 };
 
 
