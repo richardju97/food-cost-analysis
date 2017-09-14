@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 
 	cout << "You ate " << meal << " for $" << cost << endl;
 */
-	MealStats myMealStats();	
+	MealStats myMealStats;	
 
 	int select = -1;
 
