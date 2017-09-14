@@ -29,7 +29,7 @@ int main(int argc, char* argv[]) {
 	cout << "You ate " << meal << " for $" << cost << endl;
 */
 
-	int select;
+	int select = -1;
 
 	cout << "Please select an option:" << endl;
 	cout << "1. Add a meal." << endl;
