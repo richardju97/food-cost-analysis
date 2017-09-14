@@ -5,10 +5,17 @@
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
+class MealStats {
 
+		
+
+};
+
+
+int main(int argc, char* argv[]) {
+/*
 	string meal;
-	string scost;
+//	string scost;
 	double cost;
 	
 	cout << "This is fca.cpp" << endl;	
@@ -20,6 +27,24 @@ int main(int argc, char* argv[]) {
 	cin >> cost;
 
 	cout << "You ate " << meal << " for $" << cost << endl;
+*/
+
+	int select;
+
+	cout << "Please select an option:" << endl;
+	cout << "1. Add a meal." << endl;
+	cout << "2. Calculate Meal Statistics." << endl;
+	cout << "0. Exit Program." << endl;
+
+	if (select == 1) {
+
+	} else if (select == 2) {
+
+	} else if (select == 0) {
+
+	} else {
+		cout << "Please select a valid option." << endl;
+	}	
 
 	return 0;
 }
