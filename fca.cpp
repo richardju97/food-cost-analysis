@@ -37,13 +37,14 @@ int main(int argc, char* argv[]) {
 	MealStats myMealStats;	
 
 	int select = -1;
+	int cont = 1;
 
 	cout << "Please select an option:" << endl;
 	cout << "1. Add a meal." << endl;
 	cout << "2. Calculate Meal Statistics." << endl;
 	cout << "0. Exit Program." << endl;
 
-	while (select != 0) {
+	while (cont == 1) {
 
 		if (select == 1) {
 			double cost;
@@ -55,8 +56,12 @@ int main(int argc, char* argv[]) {
 			myMealStats.calcMean(3);
 
 		} else {
-		cout << "Please select a valid option." << endl;
+			cout << "Please select a valid option." << endl;
 		}	
+
+		cout << "Would you like to continue?" << endl;
+		cout << "Select 1 for yes or 0 if you are finished." << endl;
+		cin >> cont;
 	}
 
 
