@@ -7,7 +7,7 @@ class MealStats {
 	vector<double> costs;
 
 	public:
-		int addMeal();
+		int addMeal(double c);
 		double calcMean(); 
 		
 };
