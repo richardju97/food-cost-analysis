@@ -1,4 +1,5 @@
 CXX= g++
+STD= -std=c++11
 CXXFLAGS= -Wall -g -Werror
 
 all: git-commit fca
