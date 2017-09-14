@@ -65,13 +65,20 @@ int main(int argc, char* argv[]) {
 	
 			myMealStats.calcMean(3);
 
+		} else if (select == 0) {
+		
+			cout << "Thanks for using our program!" << endl;
+			cont = 0;
+
 		} else {
 			cout << "Please select a valid option." << endl;
 		}	
 
-		cout << "Would you like to continue?" << endl;
-		cout << "Select 1 for yes or 0 if you are finished." << endl;
-		cin >> cont;
+		if (cont != 0) {
+			cout << "Would you like to continue?" << endl;
+			cout << "Select 1 for yes or 0 if you are finished." << endl;
+			cin >> cont;
+		}
 	}
 
 
