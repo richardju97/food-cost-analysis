@@ -13,5 +13,6 @@ class MealStats {
 		MealStats();
 		int addMeal(double c);
 		double calcMean(int n); 
+		int select();
 		
 };

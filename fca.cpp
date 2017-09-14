@@ -18,7 +18,7 @@ double MealStats::calcMean(int n) {
 	return 0;
 }
 
-int MealStats:select() {
+int MealStats::select() {
 	
 	cout << "Please select an option:" << endl;
 	cout << "1. Add a meal." << endl;
