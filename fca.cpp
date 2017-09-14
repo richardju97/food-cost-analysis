@@ -30,6 +30,7 @@ int main(int argc, char* argv[]) {
 
 	cout << "You ate " << meal << " for $" << cost << endl;
 */
+	MealStats myMealStats();	
 
 	int select = -1;
 
@@ -39,10 +40,17 @@ int main(int argc, char* argv[]) {
 	cout << "0. Exit Program." << endl;
 
 	if (select == 1) {
+		double cost;
+		cin >> cost;
+		myMealStats.addMeal(cost);
 
 	} else if (select == 2) {
 
+		myMealStats.calcMean();
+
 	} else if (select == 0) {
+
+		cout << "Thanks for using our program!" << endl;	
 
 	} else {
 		cout << "Please select a valid option." << endl;
