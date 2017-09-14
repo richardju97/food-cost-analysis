@@ -6,6 +6,10 @@
 
 using namespace std;
 
+MealStats::MealStats() {
+
+}
+
 int MealStats::addMeal(double c) {
 	return 0;
 }
