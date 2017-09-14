@@ -19,13 +19,17 @@ double MealStats::calcMean(int n) {
 }
 
 int MealStats::select() {
+
+	int temp;
 	
 	cout << "Please select an option:" << endl;
 	cout << "1. Add a meal." << endl;
 	cout << "2. Calculate Meal Statistics." << endl;
 	cout << "0. Exit Program." << endl;
 
-	return cin;
+	cin >> temp;
+
+	return temp;
 }
 
 int main(int argc, char* argv[]) {
