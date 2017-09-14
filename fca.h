@@ -1,3 +1,11 @@
 // fca.h
 
-class MealStats();
+class MealStats {
+
+	vector<double> costs;
+
+	public:
+		int addMeal();
+		double calcMean(); 
+		
+};

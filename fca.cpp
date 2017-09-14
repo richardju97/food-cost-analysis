@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <string>
+#include "fca.h"
 
 using namespace std;
 
