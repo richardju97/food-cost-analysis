@@ -1,1 +1,3 @@
 // fca.h
+
+class MealStats();
