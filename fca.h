@@ -11,6 +11,6 @@ class MealStats {
 
 	public:
 		int addMeal(double c);
-		double calcMean(); 
+		double calcMean(int n); 
 		
 };

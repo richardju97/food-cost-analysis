@@ -6,7 +6,13 @@
 
 using namespace std;
 
+MealStats::addMeal(double c) {
 
+}
+
+MealStats::calcMean(int n) {
+
+}
 
 int main(int argc, char* argv[]) {
 /*
